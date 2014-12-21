@@ -3,6 +3,8 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'one',
+    podModulePrefix: 'one/pods',
+    usePodsByDefault: true,
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
